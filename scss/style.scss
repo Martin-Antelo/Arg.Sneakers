@@ -4,20 +4,7 @@
     box-sizing: border-box;
 }
 /*Estilos En Etiquetas*/
-body{
-    background-color: #DAD4B5;
-    font-family: 'Roboto', sans-serif;
-    width: 100vw;
-}
-header{
-    background-color: #952323;
-    width: 100vw;
-    border-left: black;
-}
-footer{
-    background-color: #A73121;
-    width: 100vw;
-}
+
 h1{
     text-align: center;
     margin: 15px;
@@ -117,3 +104,12 @@ h1{
         background-color: beige;
     }
 }
+
+@import "header";
+@import "body";
+@import "footer";
+@import "productos";
+@import "ofertas";
+@import "contacto";
+@import "sobre-nosotros";
+@import "ayuda";
