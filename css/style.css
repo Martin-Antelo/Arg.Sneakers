@@ -70,54 +70,8 @@ h1 {
   justify-content: left;
 }
 
-/*Estilos de Productos y Estilos de Ofertas*/
-.zapatillas {
-  display: flex;
-}
-
-.subtitulo-texto {
-  margin: 15px;
-}
-
-.cuadro {
-  width: 200px;
-  height: 220px;
-  background-color: white;
-  border: 2px solid black;
-  margin: 20px;
-  padding: 5px;
-  display: inline-block;
-}
-
-/*Estilos de Contactos*/
-.botones {
-  border-color: #952323;
-  border-radius: 10%;
-}
-
-.contacto-email-tel {
-  text-decoration: none;
-  color: black;
-}
-
-/*Estilos de Sobre Nosotros*/
-.subtitulo-texto-divs div {
-  margin: 15px;
-  padding: 15px;
-}
-
-/*Estilo de Ayuda*/
-.cards {
-  display: flex;
-  justify-content: space-between;
-}
-
-.navegador-estilos:hover {
-  background-color: beige;
-}
-
 header {
-  background-color: #952323;
+  background-color: violet;
   width: 100vw;
   border-left: black;
 }
