@@ -129,4 +129,17 @@ h1 {
   justify-content: space-between;
 }
 
+.card {
+  background-color: #952323;
+}
+.card .card-body {
+  background-color: black;
+}
+.card .card-body .card-title {
+  color: #952323;
+}
+.card .card-body .card-text {
+  color: #952323;
+}
+
 /*# sourceMappingURL=style.css.map */
