@@ -112,3 +112,8 @@ h1{
     display: flex;
     justify-content: space-between;
 }
+.navegador-estilos{
+    &:hover{
+        background-color: beige;
+    }
+}
