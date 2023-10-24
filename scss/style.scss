@@ -115,6 +115,7 @@ h1{
 
 .card {
     background-color: #952323;
+    border-color: black;
     .card-body{
         background-color: black;
         .card-title{
@@ -124,4 +125,8 @@ h1{
             color: #952323;
         }
     }
+}
+.titulito{
+    color: #952323;
+    background-color: aqua;
 }
