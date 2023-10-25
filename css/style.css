@@ -39,19 +39,19 @@ h1 {
 }
 
 header {
-  background-color: #952323;
+  background-color: #950101;
   width: 100vw;
   border-left: black;
 }
 
 body {
-  background-color: #DAD4B5;
+  background-color: #000000;
   font-family: "Roboto", sans-serif;
   width: 100vw;
 }
 
 footer {
-  background-color: #A73121;
+  background-color: #950101;
   width: 100vw;
 }
 
