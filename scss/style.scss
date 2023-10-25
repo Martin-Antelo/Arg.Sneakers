@@ -7,14 +7,11 @@ h1{
     text-align: center;
     margin: 15px;
 }
-.carrusel{
-    width: 1250px;
-    height: 600px;
-    background-color: #DAD4B5;
-}
+
 .video{
     justify-content: left;
 }
+
 @import "navegador";
 @import "header";
 @import "body";
@@ -24,3 +21,4 @@ h1{
 @import "contacto";
 @import "sobre-nosotros";
 @import "ayuda";
+@import "carrusel";
