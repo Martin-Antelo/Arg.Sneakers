@@ -1,0 +1,20 @@
+/*Navegador*/
+.nav{
+    justify-content: center;
+}
+.logo-nav{
+    justify-content: right;
+}
+/*header*/
+.navegador{
+    background-color: #952323;
+    list-style-type: none;
+    display: flex;
+}
+.navegador li{
+    margin: 15px;
+}
+.navegador-estilos{
+    text-decoration: none;
+    color: #DAD4B5;
+}

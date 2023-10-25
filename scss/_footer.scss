@@ -2,3 +2,22 @@ footer{
     background-color: #A73121;
     width: 100vw;
 }
+.footers{
+    list-style-type: none;
+    display: flex;
+}
+.redes{
+    list-style-type: none;
+    margin: 15px;
+}
+.redes-estilos{
+    text-decoration: none;
+    color: #DAD4B5;
+    margin: 15px;
+}
+.defensa-del-consumidor{
+    text-align: justify;
+    text-decoration: none;
+    color: #DAD4B5;
+    margin: 15px;
+}

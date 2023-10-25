@@ -3,66 +3,19 @@
     margin: 0%;
     box-sizing: border-box;
 }
-/*Estilos En Etiquetas*/
 h1{
     text-align: center;
     margin: 15px;
 }
-/*Navegador*/
-.nav{
-    justify-content: center;
-}
-.logo-nav{
-    justify-content: right;
-}
-/*Estilos de index*/
-/*header*/
-.navegador{
-    background-color: #952323;
-    list-style-type: none;
-    display: flex;
-
-}
-.navegador li{
-    margin: 15px;
-}
-.navegador-estilos{
-    &:hover{
-        background-color: #DAD4B5;
-    }
-    text-decoration: none;
-    color: #DAD4B5;
-}
-.footers{
-    list-style-type: none;
-    display: flex;
-}
-
-/*Footer*/
 .carrusel{
     width: 1250px;
     height: 600px;
     background-color: #DAD4B5;
 }
-.defensa-del-consumidor{
-    text-align: justify;
-    text-decoration: none;
-    color: #DAD4B5;
-    margin: 15px;
-}
-.redes{
-    list-style-type: none;
-    margin: 15px;
-}
-.redes-estilos{
-    text-decoration: none;
-    color: #DAD4B5;
-    margin: 15px;
-}
 .video{
     justify-content: left;
 }
-
+@import "navegador";
 @import "header";
 @import "body";
 @import "footer";
