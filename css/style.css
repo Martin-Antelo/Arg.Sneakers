@@ -99,6 +99,7 @@ footer {
 .cards {
   display: flex;
   justify-content: space-between;
+  background-color: black;
 }
 
 .botones {
