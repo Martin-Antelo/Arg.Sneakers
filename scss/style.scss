@@ -11,6 +11,9 @@ h1{
 /*Navegador*/
 .nav{
     justify-content: center;
+    &:hover{
+        background-color: #DAD4B5;
+    }
 }
 .logo-nav{
     justify-content: right;
