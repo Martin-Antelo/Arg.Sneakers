@@ -1,17 +1,4 @@
-*{
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
-}
-h1{
-    text-align: center;
-    margin: 15px;
-}
-
-.video{
-    justify-content: left;
-}
-
+@import "variables";
 @import "navegador";
 @import "header";
 @import "body";
