@@ -14,9 +14,6 @@ h1 {
 .nav {
   justify-content: center;
 }
-.nav:hover {
-  background-color: #DAD4B5;
-}
 
 .logo-nav {
   justify-content: right;
@@ -37,6 +34,9 @@ h1 {
 .navegador-estilos {
   text-decoration: none;
   color: #DAD4B5;
+}
+.navegador-estilos:hover {
+  background-color: #DAD4B5;
 }
 
 .footers {
