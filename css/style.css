@@ -13,6 +13,12 @@ h1 {
   justify-content: left;
 }
 
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
 /*Navegador*/
 .nav {
   justify-content: center;
@@ -52,6 +58,7 @@ header {
 
 body {
   background-color: #000000;
+  color: white;
   font-family: "Roboto", sans-serif;
   width: 100vw;
 }
