@@ -1,0 +1,20 @@
+$mode: dia;
+
+body{
+    @if $mode == dia {
+        main{
+            background-color: white;
+            color: black;
+        }
+    }@else if $mode == noche {
+        main{
+            background-color: black;
+            color: white;
+        }
+    }@else {
+        main{
+            background-color: black;
+            color: white;
+        }
+    }
+}
