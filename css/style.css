@@ -24,7 +24,7 @@ h1 {
 
 /*header*/
 .navegador {
-  background-color: #952323;
+  background-color: #950101;
   list-style-type: none;
   display: flex;
 }
@@ -35,13 +35,19 @@ h1 {
 
 .navegador-estilos {
   text-decoration: none;
-  color: #DAD4B5;
+  color: white;
 }
 
 header {
   background-color: #950101;
   width: 100vw;
   border-left: black;
+}
+
+.logo-de-la-tienda {
+  margin: 10px;
+  width: 70px;
+  height: 70px;
 }
 
 body {
@@ -60,6 +66,10 @@ footer {
   display: flex;
 }
 
+.container {
+  text-align: center;
+}
+
 .redes {
   list-style-type: none;
   margin: 15px;
@@ -67,14 +77,27 @@ footer {
 
 .redes-estilos {
   text-decoration: none;
-  color: #DAD4B5;
+  color: white;
   margin: 15px;
+}
+
+.logos-redes {
+  height: 35px;
+  width: 35px;
+  margin: 15px;
+  text-align: center;
+}
+
+.logo-img {
+  height: 10px;
+  height: 10px;
+  margin: 5px;
 }
 
 .defensa-del-consumidor {
   text-align: justify;
   text-decoration: none;
-  color: #DAD4B5;
+  color: white;
   margin: 15px;
 }
 
@@ -99,10 +122,6 @@ footer {
 .cards {
   display: flex;
   justify-content: space-between;
-}
-
-.card {
-  background-color: black;
 }
 
 .botones {
