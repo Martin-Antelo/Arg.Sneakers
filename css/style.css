@@ -1,12 +1,3 @@
-h1 {
-  text-align: center;
-  margin: 15px;
-}
-
-.video {
-  justify-content: left;
-}
-
 * {
   padding: 0%;
   margin: 0%;
@@ -55,6 +46,15 @@ body {
   width: 100vw;
 }
 
+h1 {
+  text-align: center;
+  margin: 15px;
+}
+
+.video {
+  justify-content: left;
+}
+
 footer {
   background-color: #950101;
   width: 100vw;
@@ -67,17 +67,6 @@ footer {
 
 .footer-center {
   text-align: center;
-}
-
-.redes {
-  list-style-type: none;
-  margin: 15px;
-}
-
-.redes-estilos {
-  text-decoration: none;
-  color: white;
-  margin: 15px;
 }
 
 .logos-redes {
