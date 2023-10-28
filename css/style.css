@@ -1,12 +1,46 @@
-* {
-  padding: 0%;
-  margin: 0%;
-  box-sizing: border-box;
+.botones-1 {
+  width: 70px;
+  height: 30px;
+  background-color: #950101;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+.botones-2 {
+  width: 120px;
+  height: 30px;
+  background-color: #950101;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+.botones-3 {
+  width: 20px;
+  height: 20px;
+  background-color: #950101;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid white;
 }
 
 body main {
   background-color: black;
   color: white;
+}
+
+.cartas {
+  background-image: radial-gradient(ellipse 250px 100px, #950101, white);
+}
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
 }
 
 /*Navegador*/
@@ -48,7 +82,6 @@ body {
 
 h1 {
   text-align: center;
-  margin: 15px;
 }
 
 .video {
@@ -93,8 +126,13 @@ footer {
   display: flex;
 }
 
-.subtitulo-texto {
-  margin: 15px;
+.envio-produc {
+  text-align: center;
+  margin-bottom: 0rem;
+  margin: 0%;
+  background-color: white;
+  color: black;
+  width: 100%;
 }
 
 .cuadro {
@@ -110,14 +148,13 @@ footer {
   justify-content: space-between;
 }
 
-.botones {
-  border-color: #952323;
-  border-radius: 10%;
-}
-
 .contacto-email-tel {
   text-decoration: none;
   color: black;
+}
+
+.mapa {
+  justify-content: center;
 }
 
 .subtitulo-texto-divs div {

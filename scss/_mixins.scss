@@ -1,0 +1,19 @@
+@mixin botones ($width, $height, $background-color, $valor-text-align, $color, $border-radius) {
+    width: $width;
+    height: $height;
+    background-color: $background-color;
+    text-align: $valor-text-align; 
+    color: $color;
+    border-radius: $border-radius;
+    border: 1px solid white;
+}
+
+.botones-1 {
+    @include botones (70px, 30px, #950101, center, white, 5px) 
+}
+.botones-2 {
+    @include botones (120px, 30px, #950101, center, white, 5px)
+}
+.botones-3 {
+    @include botones (20px, 20px, #950101, center, white, 5px)
+}
