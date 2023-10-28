@@ -2,3 +2,107 @@
     margin: 15px;
     padding: 15px;
 }
+.card-sobre{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin: 20px
+}
+.card-sobre {
+    .face{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        border-radius: 10px;
+        overflow: hidden;
+        transition: .5s;
+    }
+}
+.card-sobre{ 
+    .front{
+        transform: perspective(600px) rotateY(0deg);
+        box-shadow: 0 5px 10px #000;
+    }
+}
+.card-sobre{
+    .front img{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+    }
+}
+.card-sobre{
+    .front h3 {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 45px;
+        line-height: 45px;
+        color:  #fff;
+        background: rgba(0, 0, 0, .4);
+        text-align: center;
+    }
+}
+.card-sobre{
+    .back { 
+        transform: perspective(600px) rotateY(180deg);
+        background: #fff;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        box-shadow: 0 5px 10px #fff;
+    }
+}
+.card-sobre{
+    .back{
+        .link{
+            border-top: solid 1px black;
+            height: 50px;
+            line-height: 50px;
+        }
+    }
+}
+.card-sobre{
+    .back{
+        .link a {
+            color: black;
+        }
+    }
+}
+.card-sobre{
+    .back h3{
+        font-size: 30px;
+        margin-top: 20px;
+        letter-spacing: 2px;
+    }
+}
+.card-sobre{
+    .back p {
+        letter-spacing: 1px;
+    }
+}
+.card-sobre{
+    &:hover {
+        .front {
+            transform: perspective(600px) rotateY(180deg);
+        }
+
+    }
+}
+.card-sobre{
+    &:hover {
+        .back {
+            transform: perspective(600px) rotateY(360deg);
+        }
+
+    }
+}
