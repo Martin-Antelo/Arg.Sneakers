@@ -144,6 +144,11 @@ footer {
   display: inline-block;
 }
 
+.texto-carta {
+  text-decoration: none;
+  color: black;
+}
+
 .contacto-email-tel {
   text-decoration: none;
   color: black;
