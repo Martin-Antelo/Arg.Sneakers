@@ -3,12 +3,12 @@
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    .video::after{
-        content: "";
-        display: block;
-        width: 100%;
-        padding-bottom: 56.25%;
-    }
+}
+.video::after{
+    content: "";
+    display: block;
+    width: 100%;
+    padding-bottom: 56.25%;
 }
 .esdacode-video{
     width: 100%;
@@ -16,4 +16,13 @@
     position: absolute;
     top: 0;
     left: 0;
+}
+@media (max-width: 768px){
+    .circle{
+        height: 20px;
+        width: 20px;
+    }
+    .lines{
+        height: 25px;
+    }
 }
