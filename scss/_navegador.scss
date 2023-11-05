@@ -1,15 +1,12 @@
 /*Navegador*/
 .nav{
-    justify-content: center;
+    justify-content: right;
 }
 /*header*/
 .navegador{
     background-color: #950101;
     list-style-type: none;
     display: flex;
-}
-.navegador li{
-    margin: 15px;
 }
 .navegador-estilos{
     text-decoration: none;

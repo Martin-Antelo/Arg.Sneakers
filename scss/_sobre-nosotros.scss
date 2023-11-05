@@ -2,6 +2,14 @@
     margin: 15px;
     padding: 15px;
 }
+.titulo-sobre{
+    text-align: center;
+}
+.cards-centradas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 //comparten class con ofertas
 .card-sobre{
     display: flex;

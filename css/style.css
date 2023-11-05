@@ -45,7 +45,7 @@ body main {
 
 /*Navegador*/
 .nav {
-  justify-content: center;
+  justify-content: right;
 }
 
 /*header*/
@@ -53,10 +53,6 @@ body main {
   background-color: #950101;
   list-style-type: none;
   display: flex;
-}
-
-.navegador li {
-  margin: 15px;
 }
 
 .navegador-estilos {
@@ -164,7 +160,8 @@ footer {
 
 .cards {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  margin: 3, 3, 3, 3;
 }
 
 .envio-produc {
@@ -199,9 +196,23 @@ footer {
   justify-content: center;
 }
 
+.boton-1 {
+  margin: 0, 3, 3, 3;
+}
+
 .subtitulo-texto-divs div {
   margin: 15px;
   padding: 15px;
+}
+
+.titulo-sobre {
+  text-align: center;
+}
+
+.cards-centradas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card-sobre {
